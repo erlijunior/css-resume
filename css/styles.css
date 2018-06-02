@@ -1,3 +1,47 @@
+/* Paleta de Cores
+#2b2d42 - Azul Escuro
+#8d99ae - Azul Claro
+#edf2f4 - Azul Esbranqueçado
+#ef233c - Vermelho
+------------------------*/
+
+/* Estilos Globais
+------------------------*/
+
 body {
 	background: lightblue;
+}
+
+a {
+	color: #ef233c;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+/* Header e Footer
+------------------------*/
+
+header, footer {
+	background: #2b2d42;
+	color: #8d99ae;
+}
+
+header h1, header h2 {
+	color: #edf2f4;
+}
+
+/* Experiência Profissional
+------------------------*/
+
+.experiencia {
+	background: #edf2f4;
+}
+
+/* Formação
+------------------------*/
+
+.formacao {
+	background: #8d99ae;
 }
