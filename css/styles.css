@@ -8,6 +8,14 @@
 /* Estilos Globais
 ------------------------*/
 
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
 body {
 	font-family: 'Open Sans', sans-serif;
 	margin:0;
@@ -40,6 +48,20 @@ a:hover {
 	max-width: 950px;
 	margin: 0 auto;
 	padding: 50px;
+	overflow: auto;
+}
+
+.col-left {
+	width: 30%;
+	float: left;
+	min-width: 175px;
+}
+
+.col-right {
+	width: 70%;
+	float: left;
+	padding-left: 20px;
+	min-width: 175px;
 }
 
 /* Header e Footer
@@ -50,8 +72,14 @@ header, footer {
 	color: #8d99ae;
 }
 /* Header */
+
 header h1, header h2 {
 	color: #edf2f4;
+	margin: 0;
+}
+
+.imagem-perfil {
+	border-radius: 50%;
 }
 
 /* Footer */
