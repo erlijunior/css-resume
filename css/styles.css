@@ -3,6 +3,12 @@
 #8d99ae - Azul Claro
 #edf2f4 - Azul Esbranqueçado
 #ef233c - Vermelho
+
+#5e503f - Marrom
+#c6ac8f - Marrom Claro
+#eae0d5 - Bege
+#22333b - Azul petroleo
+#0a0908 - preto
 ------------------------*/
 
 /* Estilos Globais
@@ -22,7 +28,7 @@ body {
 }
 
 h1, h2 {
-	font-family: 'Caveat', cursive;
+	font-family: 'Righteous', cursive;
 	font-weight: 400;
 }
 
@@ -36,7 +42,7 @@ h2 {
 }
 
 a {
-	color: #ef233c;
+	color: #f06449;
 }
 
 a:hover {
@@ -68,8 +74,8 @@ a:hover {
 ------------------------*/
 
 header, footer {
-	background: #2b2d42;
-	color: #8d99ae;
+	background: #49111c;
+	color: #eae0d5;
 }
 /* Header */
 
@@ -96,12 +102,12 @@ footer {
 ------------------------*/
 
 .experiencia {
-	background: #edf2f4;
+	background: #f2f4f3;
 }
 
 /* Formação
 ------------------------*/
 
 .formacao {
-	background: #8d99ae;
+	background: #a9927d;
 }
